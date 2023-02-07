@@ -11,7 +11,12 @@
 
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 25em;
+    grid-column-gap: 24em;
+    background: linear-gradient(151.5deg, rgba(40, 52, 63, 1) 0%, rgba(31, 54, 65, 1) 45%, rgba(60, 105, 129, 1) 45%, rgba(65, 127, 160, 1) 100%);
+}
+.item{
+    font-size: 1.1em;
+    text-align: center;
 }
 
 .des {
@@ -20,7 +25,6 @@
 
 .vid {
     padding: 6%;
-    text-align: center;
     background: #1e1c38;
     width: 500px;
     height: 800px;
@@ -53,7 +57,7 @@ p {
     margin: 20px 0;
 }
 
-#checkbox{
+#checkbox {
     height: 20px;
     width: 20px;
 }
